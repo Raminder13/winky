@@ -1,0 +1,31 @@
+@import "./reset.css";
+
+:root {
+  --app-dark:          #030022                   ;
+  --app-footer-dark:   #08071b                   ;
+  --app-footer-border: #f0f2f444                 ;
+  --app-light:         #f0f2f4                   ;
+  --app-footer-light:  #dae2e5                   ;
+  --app-blue:          #5749ff                   ;
+  --app-blue-hover:    #4535ff                   ;
+  --app-green:         #49ff57                   ;
+  --app-green-hover:   #6effc1                   ;
+  --app-red:           #ff5749                   ;
+  --app-red-hover:     #ff4535                   ;
+  --app-purple:        #b249ff                   ;
+  --app-purple-hover:  #aa35ff                   ;
+  --app-orange:        #ffb249                   ;
+  --app-orange-hover:  #ffa221                   ;
+  --app-yellow:        #f1ff49                   ;
+
+  --app-header-height: 75px                        ;
+  --app-footer-height: 112px                       ;
+  --app-border-radius: 6px                         ;
+}
+
+
+.container {
+  width: min(100% - 30px, 1280px);
+  margin-inline: auto;
+}
+

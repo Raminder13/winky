@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Raminder Singh">
+    <meta name="description" content="My web page">
+    <meta name="keywords" content="html, css, web, web development">   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="./assets/img/icon_image.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Quicksand:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home | WINKY</title>
+    <link rel="stylesheet" href="./assets/style/index.css">
+    <script src="./assets/script/home.js" type="module"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container flex">
+        <div class="title">
+          <h1>
+            <a href="#">
+              WINKY&#128540 TALKS
+            </a>
+          </h1>
+        </div>
+        <nav class="flex">
+          <ul class="flex">
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Notifications</a></li>
+            <li><a href="#">Profile</a></li>
+          </ul>
+        </nav>
+        <div class="user flex">
+          <h2>RAMINDER SINGH</h2>
+          <div class="avatar small"></div>
+        </div>
+      </div>
+    </header>
+
+    <main class="flex container">
+
+      <section class="profile one flex">
+        <div>
+          <div class="avatar big"></div>
+          <h2>RAMINDER SINGH</h2>
+          <p>Software Developer</p>
+          <p>Winnepeg, MB</p>
+          <div class="info flex">
+            <div class="follows">
+              <h3>Followers</h3>
+              <p>1236</p>
+            </div>
+            <div class="views">
+              <h3>Views</h3>
+              <p>12k</p>
+            </div>
+          </div>
+        </div>
+      </section>     
+      <section class="posts">
+        <form class="flex">
+          <textarea placeholder="How's it going?"></textarea>
+          <div class="form-col">
+            <input type="file" class="img-input" id="file" accept="image/*">
+            <label for="file" class="label flex">
+              <i class="fa-solid fa-image"></i>
+              <p class="label-p"></p>
+            </label>
+          </div>
+          <div class="form-col">
+            <button type="button" class="post">Post</button>
+          </div>
+        </form>
+          <div class="posts-place flex">
+            <div class="posted">
+              <div class="post-header flex">
+                <div class="avatar smaller"></div>
+                <p>Raminder Singh</p>
+                <p>14 April 2023</p>
+              </div>
+              <img src="./assets/img/IMG-4265.jpg" alt="JETTA">
+              <p>JETTA | SHOOTING TIME</p>
+            </div>
+            <div class="posted">
+              <div class="post-header flex">
+                <div class="avatar smaller"></div>
+                <p>Raminder Singh</p>
+                <p>15 April 2023</p>
+              </div>
+              <img src="./assets/img/63EEDD7F-0329-4D0C-B4A4-F7D4EAE04E59.jpg" alt="MAZDA 3">
+              <p>MAZDA 3 | TIM HORTONS</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="followers one">
+        <h2>People You Might Know</h2>
+      </section>
+
+    </main>
+
+    <footer>
+
+      <div class="container footer flex">
+        <div class="links flex">
+          <div class="flex">
+            <a href="#">
+              <p>About</p>
+            </a>
+            <a href="#">
+              <p>Accessibility</p>
+            </a>
+            <a href="#">
+              <p>Help</p>
+            </a>
+            <a href="#">
+              <p>Privacy</p>
+            </a>
+            <a href="#">
+              <p>Terms</p>
+            </a>
+            <a href="#">
+              <p>More</p>
+            </a>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Raminder @2023</p>
+        </div>
+      </div>
+
+    </footer>
+
+  </body>
+</html>
